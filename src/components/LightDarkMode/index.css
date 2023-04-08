@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.x {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bgCard {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.bg {
+  background-color: #000000;
+  box-shadow: 2px 2px 2px rgba(0 0 0 11px);
+  height: 18vh;
+  width: 19vw;
+  border-radius: 8px;
+  border-style: solid;
+}
+h1 {
+  color: white;
+  font-size: 13px;
+  font-family: Bree Serif;
+  text-align: center;
+}
+.click {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: bottom;
+}
+button {
+  color: black;
+  font-size: 10px;
+  font-family: Bree Serif;
+  height: 38px;
+  width: 89px;
+  margin: 20px;
+  background-color: white;
+}
